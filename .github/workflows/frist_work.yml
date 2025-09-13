@@ -1,0 +1,8 @@
+name: Frist workflow
+on: push
+jobs:
+  fristjob:
+    runs-on:  ubuntu-latest
+    steps:
+    - name: great
+      run: echo "hello world "
