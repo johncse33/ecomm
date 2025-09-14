@@ -1,4 +1,4 @@
-name: welcome
+name: setps_welcome
 on: workflow_dispatch 
 jobs:
   jobs1:
