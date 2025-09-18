@@ -1,0 +1,16 @@
+name: runner_dem
+on: workflow_dispatch 
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greet
+        run: echo "welcome to ubtuntu"
+      - name: server operating
+        run: cat /etc/os-release
+      - name: Memory and storage
+        run: |
+          free -m
+          free -h
+          df -h
+          lscpu
